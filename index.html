@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title data-text="title_page">Tamrini</title>
+    <meta name="description" content="تطبيق تمريني دليل كمال الاجسام انضم الينا الآن">
+    <!-- Tailwind CSS file -->
+    <link href="./css/output.css" rel="stylesheet">
+    <!-- Font Awesome CSS file -->
+    <link href="./css/all.min.css" rel="stylesheet">
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900;1000&display=swap" rel="stylesheet">
+    <!-- Icon -->
+    <link rel="icon" href="./img/lo.png">
+    <!-- Swiper -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+</head>
+<body>
+    <!-- ********** Start Navbar ********** -->
+    <div class="navbar shadow-lg fixed left-0 top-0 w-full z-50">
+        <div class="container px-5 xl:px-28 mx-auto">
+            <div class="row flex justify-between items-center third-color">
+                <!-- Navbar -->
+                <nav class="flex gap-8 items-center py-3">
+                    <!-- Logo -->
+                    <div class="logo w-36 max-h-[41px]">
+                        <img loading="lazy" src="./img/lo.png" alt="logo" class="max-w-full max-h-[41px]">
+                    </div>
+                    <!-- Nav in full screen -->
+                    <ul class="hidden 2xl:flex gap-6 font-medium text-white">
+                        <li>
+                            <a href="#" class="hover:text-black duration-300" aria-label="Read more about Seminole tax hike" data-text="home">Home</a>
+                        </li>
+                        <li>
+                            <a href="#about-us" class="hover:text-black duration-300" aria-label="Read more about Seminole tax hike" data-text="about">About us</a>
+                        </li>
+                        <li>
+                            <a href="#advantages" class="hover:text-black duration-300"
+                                aria-label="Read more about Seminole tax hike" data-text="advantages">Advantages</a>
+                        </li>
+                        <li>
+                            <a href="#gallery" class="hover:text-black duration-300" aria-label="Read more about Seminole tax hike" data-text="gallery">Gallery</a>
+                        </li>
+                        <li>
+                            <a href="#stats" class="hover:text-black duration-300" aria-label="Read more about Seminole tax hike" data-text="stats">Stats</a>
+                        </li>
+                        <li>
+                            <a href="#contact" class="hover:text-black duration-300" aria-label="Read more about Seminole tax hike" data-text="contact">Contact</a>
+                        </li>
+                    </ul>
+                    <!-- Nav in Mobile -->
+                    <ul
+                        class="sidebar w-full flex-col gap-0 absolute left-0 top-[64px] -translate-x-[100%] second-bg text-white duration-500">
+                        <li>
+                            <a href="#" class="w-full p-4 hover:text-white duration-300 block" aria-label="Read more about Seminole tax hike" data-text="home">Home</a>
+                        </li>
+                        <li>
+                            <a href="#about-us" class="w-full p-4 hover:text-white duration-300 block"
+                                aria-label="Read more about Seminole tax hike" data-text="about">About us</a>
+                        </li>
+                        <li>
+                            <a href="#advantages" class="w-full p-4 hover:text-white duration-300 block"
+                                aria-label="Read more about Seminole tax hike" data-text="advantages">Advantages</a>
+                        </li>
+                        <li>
+                            <a href="#gallery" class="w-full p-4 hover:text-white duration-300 block"
+                                aria-label="Read more about Seminole tax hike" data-text="gallery">Gallery</a>
+                        </li>
+                        <li>
+                            <a href="#stats" class="w-full p-4 hover:text-white duration-300 block"
+                                aria-label="Read more about Seminole tax hike" data-text="stats">Stats</a>
+                        </li>
+                        <li>
+                            <a href="#contact" class="w-full p-4 hover:text-white duration-300 block"
+                                aria-label="Read more about Seminole tax hike" data-text="contact">Contact</a>
+                        </li>
+                    </ul>
+                </nav>
+                <!-- Language -->
+                <div class="language flex gap-12">
+                    <p class="lang border border-slate-700 text-slate-300 p-1 rounded-md font-semibold cursor-pointer select-none"
+                        data-lang="AR">AR</p>
+                    <div class="text-2xl cursor-pointer 2xl:hidden w-[30px]">
+                        <span class="toggler fas fa-bars block h-full w-full"></>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ********** End Navbar ********** -->
+    <!-- ********** Start Landing ********** -->
+    <div class="landing flex justify-center items-center py-16 mt-[64px] relative z-10 bg-transparent">
+        <div class="container flex flex-col justify-center items-center gap-10 px-5 xl:px-52 mx-auto">
+            <div class="row flex flex-col 2xl:flex-row items-center gap-2">
+                <!-- Image -->
+                <div class="img w-64 sm:w-96 md:w-[500px] 2xl:w-[550px] animate-top-bottom">
+                    <img loading="lazy" src="./img/landing.svg" alt="pro" class="max-w-full max-h-[450px]">
+                </div>
+                <!-- Info -->
+                <div class="info flex-1 flex flex-col items-center 2xl:items-start gap-14">
+                    <p class="chan leading-8 || text-xl md:text-4xl font-semibold max-w-2xl text-slate-100"
+                        data-text="land_info">Will Work out now through the best application for gym and fitness it will
+                        provide you with all you need for a fit well-built
+                        body.</p>
+                    <!-- Links -->
+                    <div class="links flex flex-col gap-8">
+                        <div class="get">
+                            <p class="chan || text-3xl md:text-4xl font-extrabold max-w-2xl third-color"
+                                data-text="land_get">Download Now</p>
+                        </div>
+                        <div class="h-fit flex gap-3 flex-wrap justify-center items-center 2xl:justify-start">
+                            <div class="app h-fit">
+                                <a href="https://play.google.com/store/apps/details?id=com.tamrini1.com" target="_blank" aria-label="Read more about Seminole tax hike"
+                                    class="block w-[125px] h-10 rounded-md pt-2 border duration-300 hover:-translate-y-1 pl-1 pr-1 bg-white">
+                                    <img loading="lazy" src="./img/google-play-1.svg" alt="android" class="max-w-full -mt-1">
+                                </a>
+                            </div>
+                            <div class="app h-fit">
+                                <a href="https://apps.apple.com/us/app/%D8%AA%D8%B7%D8%A8%D9%8A%D9%82-%D8%AA%D9%85%D8%B1%D9%8A%D9%86%D9%8A/id1571336937"
+                                    target="_blank" aria-label="Read more about Seminole tax hike" class="block w-[130px] h-9 duration-300 hover:-translate-y-1">
+                                    <img loading="lazy" src="./img/app-store.svg" alt="apple" class="max-w-full">
+                                </a>
+                            </div>
+                            <div class="app h-fit">
+                                <a href="https://appgallery.huawei.com/app/C108452727" target="_blank" aria-label="Read more about Seminole tax hike"
+                                    class="block w-[125px] h-10 rounded-md pt-2 border duration-300 hover:-translate-y-1 pr-2">
+                                    <img loading="lazy" src="./img/huawei.svg" alt="android" class="max-w-full -mt-8">
+                                </a>
+                            </div>
+                            <div class="app h-fit">
+                                <a href="https://m.apkpure.com/ar/tamrini-app/com.tamrini1.com" target="_blank" aria-label="Read more about Seminole tax hike"
+                                    class="block w-[125px] h-10 duration-300 hover:-translate-y-1 rounded-md overflow-hidden border">
+                                    <img loading="lazy" src="./img/apk.png" alt="apple" class="max-w-full">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Animations -->
+        <!-- dumbbell -->
+        <i class="fa-solid fa-dumbbell land-animate absolute right-28 top-16 -rotate-45 text-6xl forth-color"></i>
+        <!-- stopwatch -->
+        <i class="fa-solid fa-stopwatch-20 land-animate absolute left-1/3 top-3/4 -rotate-45 text-6xl forth-color"></i>
+        <!-- biking -->
+        <i class="fa-solid fa-person-biking land-animate absolute left-6 top-1 -rotate-45 text-6xl forth-color"></i>
+        <!-- running -->
+        <i class="fa-solid fa-person-running land-animate absolute left-1/2 top-1/2 -rotate-45 text-6xl forth-color"></i>
+    </div>
+    <!-- ********** End Landing ********** -->
+    <!-- ********** Start About ********** -->
+    <div id="about-us" class="about-us bg-white py-14">
+        <!-- Main Title -->
+        <div class="main-title relative w-fit mx-auto text-4xl font-bold text-center mb-8 uppercase">
+            <h2 data-text="about_main_title">About us</h2>
+            <span class="absolute h-1 w-10/12 left-1/2 -translate-x-1/2 -bottom-3 third-bg rounded-xl"></span>
+        </div>
+        <div class="container px-5 xl:px-28 mx-auto">
+            <div class="row flex flex-col 2xl:flex-row items-center gap-6">
+                <!-- Video -->
+                <div class="video md:max-w-[550px] rounded-xl overflow-hidden relative shadow-2xl z-10 cursor-pointer">
+                    <!-- Over IMG -->
+                    <div class="over-img hidden md:block absolute left-0 top-0 h-full w-full bg-white">
+                        <img loading="lazy" src="./img/physiotherapy-595529_1280.jpg" alt="">
+                    </div>
+                    <!-- Over BTn -->
+                    <div
+                        class="over-btn hidden md:flex absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 h-20 w-20 rounded-full bg-white justify-center items-center text-4xl text-blue-500">
+                        <i class="fas fa-play"></i>
+                    </div>
+                    <video id="myVideo" class="w-full" controls>
+                        <source src="./vid/video.mp4" type="video/mp4" kind="captions" srclang="en" label="english_captions">
+                        <source src="./vid/video.mp4" type="video/webm" kind="captions" srclang="en" label="english_captions">
+                    </video>
+                </div>
+                <!-- Info -->
+                <div class="info flex-1 flex flex-col items-center 2xl:items-start gap-14">
+                    <p class="chan font-bold text-lg leading-8 third-color" data-text="about_info">Being in a good shape
+                        through home excercises is now possible for everybody and without internet
+                        Are you looking for a perfect body do you want muscles ever dreamed of a perfect shape but you have
+                        no equipments do you
+                        want nutritional complements at competetive prices do you want a personal trainer?</p>
+                    <!-- Links -->
+                    <div class="links flex flex-col gap-8">
+                        <div class="get">
+                            <p class="chan || text-3xl md:text-4xl font-extrabold max-w-2xl third-color"
+                                data-text="about_get">Get the app now</p>
+                        </div>
+                        <div class="h-fit flex gap-3 flex-wrap justify-center items-center 2xl:justify-start">
+                            <div class="app h-fit">
+                                <a href="https://apps.apple.com/us/app/%D8%AA%D8%B7%D8%A8%D9%8A%D9%82-%D8%AA%D9%85%D8%B1%D9%8A%D9%86%D9%8A/id1571336937"
+                                    class="block w-[135px] h-10 rounded-md pt-2 border duration-300 hover:-translate-y-1 pl-1 pr-1 bg-white">
+                                    <img loading="lazy" src="./img/google-play-1.svg" alt="android" class="max-w-full -mt-1">
+                                </a>
+                            </div>
+                            <div class="app h-fit">
+                                <a href="https://play.google.com/store/apps/details?id=com.tamrini1.com" target="_blank"
+                                    class="block w-[135px] h-10 duration-300 hover:-translate-y-1">
+                                    <img loading="lazy" src="./img/app-store.svg" alt="apple" class="max-w-full">
+                                </a>
+                            </div>
+                            <div class="app h-fit">
+                                <a href="https://appgallery.huawei.com/app/C108452727" target="_blank"
+                                    class="block w-[135px] h-10 rounded-md pt-2 border duration-300 hover:-translate-y-1 overflow-hidden pr-2">
+                                    <img loading="lazy" src="./img/huawei.svg" alt="android" class="max-w-full -mt-8">
+                                </a>
+                            </div>
+                            <div class="app h-fit">
+                                <a href="https://m.apkpure.com/ar/tamrini-app/com.tamrini1.com" target="_blank"
+                                    class="block w-[135px] h-10 duration-300 hover:-translate-y-1 rounded-md overflow-hidden border">
+                                    <img loading="lazy" src="./img/apk.png" alt="apple" class="max-w-full">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ********** End About ********** -->
+    <!-- ********** Start Advantages ********** -->
+    <div id="advantages" class="advantages main-bg py-14">
+        <!-- Main Title -->
+        <div class="main-title relative w-fit mx-auto text-4xl font-bold text-center mb-14 uppercase">
+            <h2 data-text="advantages_main_title">Advantages</h2>
+            <span class="absolute h-1 w-10/12 left-1/2 -translate-x-1/2 -bottom-3 third-bg rounded-xl"></span>
+        </div>
+        <div class="container px-5 xl:px-28 mx-auto">
+            <!-- Title -->
+            <div class="second-title max-w-xl mx-auto text-center flex flex-col gap-3 text-lg">
+                <h3 class="font-bold third-color" data-text="advantages_second_title">Some features of the app that will
+                    make you addicted to using it :</h3>
+                <p class="font-semibold text-gray-500 text-sm" data-text="advantages_second_title_p">This app has been
+                    developed to cater for the needs of everyone of all types and stripes; whether you are a beginner, a
+                    professional body builder, or just interested in nutrition this app is your best go to.</p>
+            </div>
+            <!-- Boxes -->
+            <div class="row mt-16 grid md:grid-cols-2 2xl:grid-cols-3 gap-6">
+                <!-- Col 1 -->
+                <div
+                    class="col flex flex-col gap-4 text-center border border-slate-300 bg-white p-4 rounded-xl duration-300 || hover:shadow-xl">
+                    <div class="icon flex justify-center">
+                        <img loading="lazy" src="./img/1.png" alt="img" class="w-16 h-16">
+                    </div>
+                    <div class="title text-lg third-color font-bold">
+                        <h4 data-text="advantages_col_title_1">Easy home excercises without net or equipments</h4>
+                    </div>
+                    <div class="text font-medium text-gray-500 text-lg leading-7">
+                        <p data-text="advantages_col_p_1">The app offers diversified home excercises with pictures and video
+                            tutorials like back and butt excercises, chest
+                            excercises, stomach excercises, excercises to lose weight or increase your height, arm
+                            excercises, plank excercises and
+                            more to explore</p>
+                    </div>
+                </div>
+                <!-- Col 2 -->
+                <div
+                    class="col flex flex-col gap-4 text-center border border-slate-300 bg-white p-4 rounded-xl duration-300 || hover:shadow-xl">
+                    <div class="icon flex justify-center">
+                        <img loading="lazy" src="./img/2.png" alt="img" class="w-16 h-16">
+                    </div>
+                    <div class="title text-lg third-color font-bold">
+                        <h4 data-text="advantages_col_title_2">Health and nutrition</h4>
+                    </div>
+                    <div class="text font-medium text-gray-500 text-lg leading-7">
+                        <p data-text="advantages_col_p_2">The app gives special care for your health as it provides you with
+                            all the requirements such as calories and protein
+                            calculator , it also allows you to know the nutritional value of many vegetables and fruits as
+                            well as the nutritional
+                            complements and how to best use them</p>
+                    </div>
+                </div>
+                <!-- Col 3 -->
+                <div
+                    class="col flex flex-col gap-4 text-center border border-slate-300 bg-white p-4 rounded-xl duration-300 || hover:shadow-xl">
+                    <div class="icon flex justify-center">
+                        <img loading="lazy" src="./img/3.png" alt="img" class="w-16 h-16">
+                    </div>
+                    <div class="title text-lg third-color font-bold">
+                        <h4 data-text="advantages_col_title_3">Educate yourself</h4>
+                    </div>
+                    <div class="text font-medium text-gray-500 text-lg leading-7">
+                        <p data-text="advantages_col_p_3">Written by professional trainers and certified nutrition experts,
+                            the app contains articles revealing all the secrets of
+                            body building, stamina, nutrition and many more</p>
+                    </div>
+                </div>
+                <!-- Col 4 -->
+                <div
+                    class="col flex flex-col gap-4 text-center border border-slate-300 bg-white p-4 rounded-xl duration-300 || hover:shadow-xl">
+                    <div class="icon flex justify-center">
+                        <img loading="lazy" src="./img/4.png" alt="img" class="w-16 h-16">
+                    </div>
+                    <div class="title text-lg third-color font-bold">
+                        <h4 data-text="advantages_col_title_4">Nutritional complements, proteins and fat burners store</h4>
+                    </div>
+                    <div class="text font-medium text-gray-500 text-lg leading-7">
+                        <p data-text="advantages_col_p_4">The app offers high quality nutritional complements that everyone
+                            needs to build the perfect body at very competetive
+                            prices</p>
+                    </div>
+                </div>
+                <!-- Col 5 -->
+                <div
+                    class="col flex flex-col gap-4 text-center border border-slate-300 bg-white p-4 rounded-xl duration-300 || hover:shadow-xl">
+                    <div class="icon flex justify-center">
+                        <img loading="lazy" src="./img/5.png" alt="img" class="w-16 h-16">
+                    </div>
+                    <div class="title text-lg third-color font-bold">
+                        <h4 data-text="advantages_col_title_5">Find the closest gym to you</h4>
+                    </div>
+                    <div class="text font-medium text-gray-500 text-lg leading-7">
+                        <p data-text="advantages_col_p_5">The app navigates the closest gyms to your home and will
+                            automatically lead you to them through gps</p>
+                    </div>
+                </div>
+                <!-- Col 6 -->
+                <div
+                    class="col flex flex-col gap-4 text-center border border-slate-300 bg-white p-4 rounded-xl duration-300 || hover:shadow-xl">
+                    <div class="icon flex justify-center">
+                        <img loading="lazy" src="./img/6.png" alt="img" class="w-16 h-16">
+                    </div>
+                    <div class="title text-lg third-color font-bold">
+                        <h4 data-text="advantages_col_title_6">Follow up with professional trainers</h4>
+                    </div>
+                    <div class="text font-medium text-gray-500 text-lg leading-7">
+                        <p data-text="advantages_col_p_6">One of the main features of the app is enabling you to get through
+                            professional trainers and collaborating with them to
+                            develop your stamina and realise your fitness goals.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ********** End Advantages ********** -->
+    <!-- ********** Start Section ********** -->
+    <div class="what forth-bg py-14">
+        <div class="container px-5 xl:px-28 mx-auto">
+            <div class="get text-center text-white">
+                <p class="font-bold max-w-md mx-auto" data-text="advantages_get">What are you waiting for !! download the
+                    app now and get the best professional trainer</p>
+            </div>
+            <!-- Links -->
+            <div class="links flex flex-col gap-8 items-center mt-5">
+                <div class="h-fit flex gap-3 flex-wrap justify-center items-center 2xl:justify-start">
+                    <div class="app h-fit">
+                        <a href="https://apps.apple.com/us/app/%D8%AA%D8%B7%D8%A8%D9%8A%D9%82-%D8%AA%D9%85%D8%B1%D9%8A%D9%86%D9%8A/id1571336937"
+                            class="block w-[135px] h-10 rounded-md pt-2 border duration-300 hover:-translate-y-1 pl-1 pr-1 bg-white" aria-label="Read more about Seminole tax hike">
+                            <img loading="lazy" src="./img/google-play-1.svg" alt="android" class="max-w-full -mt-1">
+                        </a>
+                    </div>
+                    <div class="app h-fit">
+                        <a href="https://play.google.com/store/apps/details?id=com.tamrini1.com" target="_blank" aria-label="Read more about Seminole tax hike"
+                            class="block w-[135px] h-10 duration-300 hover:-translate-y-1">
+                            <img loading="lazy" src="./img/app-store.svg" alt="apple" class="max-w-full">
+                        </a>
+                    </div>
+                    <div class="app h-fit">
+                        <a href="https://appgallery.huawei.com/app/C108452727" target="_blank" aria-label="Read more about Seminole tax hike"
+                            class="block w-[135px] h-10 rounded-md pt-2 border duration-300 hover:-translate-y-1 overflow-hidden pr-2">
+                            <img loading="lazy" src="./img/huawei.svg" alt="android" class="max-w-full -mt-8">
+                        </a>
+                    </div>
+                    <div class="app h-fit">
+                        <a href="https://m.apkpure.com/ar/tamrini-app/com.tamrini1.com" target="_blank" aria-label="Read more about Seminole tax hike"
+                            class="block w-[135px] h-10 duration-300 hover:-translate-y-1 rounded-md overflow-hidden border">
+                            <img loading="lazy" src="./img/apk.png" alt="apple" class="max-w-full">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ********** End Section ********** -->
+    <!-- ********** Start Gallery ********** -->
+    <div id="gallery" class="gallery bg-white py-14" dir="ltr">
+        <!-- Main Title -->
+        <div class="main-title relative w-fit mx-auto text-4xl font-bold text-center mb-14 uppercase">
+            <h2 data-text="gallery_main_title">Gallery</h2>
+            <span class="absolute h-1 w-10/12 left-1/2 -translate-x-1/2 -bottom-3 third-bg rounded-xl"></span>
+        </div>
+        <div class="container px-5 xl:px-28 mx-auto">
+            <!-- Swiper -->
+            <div class="swiper-container two">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="slider-image">
+                            <img loading="lazy" src="./img/app/1.png" alt="slide 1">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="slider-image">
+                            <img loading="lazy" src="./img/app/2.png" alt="slide 2">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="slider-image">
+                            <img loading="lazy" src="./img/app/3.png" alt="slide 3">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="slider-image">
+                            <img loading="lazy" src="./img/app/4.png" alt="slide 4">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="slider-image">
+                            <img loading="lazy" src="./img/app/5.png" alt="slide 5">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="slider-image">
+                            <img loading="lazy" src="./img/app/6.png" alt="slide 5">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="slider-image">
+                            <img loading="lazy" src="./img/app/7.png" alt="slide 5">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="slider-image">
+                            <img loading="lazy" src="./img/app/8.png" alt="slide 5">
+                        </div>
+                    </div>
+                    <!-- Add Pagination -->
+                </div>
+                <div class="swiper-pagination"></div>
+                <div class="tranding-slider-control">
+                    <div class="swiper-button-prev slider-arrow">
+                        <ion-icon name="arrow-back-outline"></ion-icon>
+                    </div>
+                    <div class="swiper-button-next slider-arrow">
+                        <ion-icon name="arrow-forward-outline"></ion-icon>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ********** End Gallery ********** -->
+    <!-- ********** Start Stats ********** -->
+    <div id="stats" class="stats main-bg py-14">
+        <!-- Main Title -->
+        <div class="main-title relative w-fit mx-auto text-4xl font-bold text-center mb-14 uppercase">
+            <h2 data-text="stats_main_title">Stats</h2>
+            <span class="absolute h-1 w-10/12 left-1/2 -translate-x-1/2 -bottom-3 third-bg rounded-xl"></span>
+        </div>
+        <div class="container px-5 xl:px-28 mx-auto">
+            <div class="boxes grid gap-5 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5">
+                <!-- BOX-1 -->
+                <div
+                    class="box relative p-5 border rounded-sm shadow-md bg-white opacity-80 hover:opacity-100 duration-300 text-center">
+                    <img loading="lazy" src="./img/01.png" alt="" class="fa-2x fa-fw mx-auto">
+                    <span class="text-5xl font-semibold block my-3 third-color">1500</span>
+                    <span class="text font-bold second-color text-lg italic" data-text="stats_box_1">Training</span>
+                </div>
+                <!-- BOX-2 -->
+                <div
+                    class="box relative p-5 border rounded-sm shadow-md bg-white opacity-80 hover:opacity-100 duration-300 text-center">
+                    <img loading="lazy" src="./img/02.png" alt="" class="fa-2x fa-fw mx-auto">
+                    <span class="num text-5xl font-semibold block my-3 third-color" data-number="100">100</span>
+                    <span class="text font-bold second-color text-lg italic" data-text="stats_box_2">Home Training</span>
+                </div>
+                <!-- BOX-3 -->
+                <div
+                    class="box relative p-5 border rounded-sm shadow-md bg-white opacity-80 hover:opacity-100 duration-300 text-center">
+                    <img loading="lazy" src="./img/03.png" alt="" class="fa-2x fa-fw mx-auto">
+                    <span class="num text-5xl font-semibold block my-3 third-color" data-number="600">600</span>
+                    <span class="text font-bold second-color text-lg italic" data-text="stats_box_3">Dietary
+                        Supplement</span>
+                </div>
+                <!-- BOX-4 -->
+                <div
+                    class="box relative p-5 border rounded-sm shadow-md bg-white opacity-80 hover:opacity-100 duration-300 text-center">
+                    <img loading="lazy" src="./img/04.png" alt="" class="fa-2x fa-fw mx-auto">
+                    <span class="num text-5xl font-semibold block my-3 third-color" data-number="100">100</span>
+                    <span class="text font-bold second-color text-lg italic" data-text="stats_box_4">Sports Club</span>
+                </div>
+                <!-- BOX-5 -->
+                <div
+                    class="box relative p-5 border rounded-sm shadow-md bg-white opacity-80 hover:opacity-100 duration-300 text-center">
+                    <i class="fa-regular fa-newspaper fa-2x fa-fw"></i>
+                    <span class="num text-5xl font-semibold block my-3 third-color" data-number="100">100</span>
+                    <span class="text font-bold second-color text-lg italic" data-text="stats_box_5">Article</span>
+                </div>
+                <!-- BOX-6 -->
+                <div
+                    class="box relative p-5 border rounded-sm shadow-md bg-white opacity-80 hover:opacity-100 duration-300 text-center">
+                    <img loading="lazy" src="./img/05.png" alt="" class="fa-2x fa-fw mx-auto">
+                    <span class="num text-5xl font-semibold block my-3 third-color" data-number="100">100</span>
+                    <span class="text font-bold second-color text-lg italic" data-text="stats_box_6">Diet food</span>
+                </div>
+                <!-- BOX-7 -->
+                <div
+                    class="box relative p-5 border rounded-sm shadow-md bg-white opacity-80 hover:opacity-100 duration-300 text-center">
+                    <img loading="lazy" src="./img/06.png" alt="" class="fa-2x fa-fw mx-auto">
+                    <span class="num text-5xl font-semibold block my-3 third-color" data-number="100">100</span>
+                    <span class="text font-bold second-color text-lg italic" data-text="stats_box_7">Nutritional values of
+                        food</span>
+                </div>
+                <!-- BOX-8 -->
+                <div
+                    class="box relative p-5 border rounded-sm shadow-md bg-white opacity-80 hover:opacity-100 duration-300 text-center">
+                    <i class="fa-solid fa-cloud-arrow-down fa-2x fa-fw"></i>
+                    <span class="text-5xl font-semibold block my-3 third-color">5000</span>
+                    <span class="text font-bold second-color text-lg italic" data-text="stats_box_8">Application
+                        downloads</span>
+                </div>
+                <!-- BOX-9 -->
+                <div
+                    class="box relative p-5 border rounded-sm shadow-md bg-white opacity-80 hover:opacity-100 duration-300 text-center">
+                    <i class="fa-solid fa-users fa-2x fa-fw"></i>
+                    <span class="text-5xl font-semibold block my-3 third-color">1000</span>
+                    <span class="text font-bold second-color text-lg italic" data-text="stats_box_9">Users Signup</span>
+                </div>
+                <!-- BOX-10 -->
+                <div
+                    class="box relative p-5 border rounded-sm shadow-md bg-white opacity-80 hover:opacity-100 duration-300 text-center">
+                    <img loading="lazy" src="./img/07.png" alt="" class="fa-2x fa-fw mx-auto">
+                    <span class="num text-5xl font-semibold block my-3 third-color" data-number="10">10</span>
+                    <span class="text font-bold second-color text-lg italic" data-text="stats_box_10">Coach in the
+                        app</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ********** End Stats ********** -->
+    <!-- ********** Start Contact ********** -->
+    <div id="contact" class="contact bg-white py-14">
+        <!-- Main Title -->
+        <div class="main-title relative w-fit mx-auto text-4xl font-bold text-center mb-14 uppercase">
+            <h2 data-text="contact_main_title">Contact</h2>
+            <span class="absolute h-1 w-10/12 left-1/2 -translate-x-1/2 -bottom-3 third-bg rounded-xl"></span>
+        </div>
+        <div class="container px-5 xl:px-28 mx-auto">
+            <div class="row flex flex-col md:flex-row gap-8 justify-center items-center">
+                <!-- Whatsapp -->
+                <div class="col w-80 text-center p-5 rounded-lg main-bg shadow-lg duration-500">
+                    <i class="fab fa-whatsapp text-5xl text-green-500"></i>
+                    <h3 class="text-3xl font-bold my-4 text-black tracking-wider" data-text="contact_whats_title">Whatsapp
+                    </h3>
+                    <p class="text-gray-500 my-4 font-bold">96-4771-1211-318+</p>
+                    <a href="https://api.whatsapp.com/send?phone=+9647711211318" aria-label="Read more about Seminole tax hike" target="_blank"
+                        class="text-xl main-color font-semibold duration-300" data-text="contact_whats_mess">Send a
+                        message</a>
+                </div>
+                <!-- Gmail -->
+                <div class="col w-80 text-center p-5 rounded-lg main-bg shadow-lg duration-500">
+                    <i class="fas fa-envelope text-5xl text-orange-500"></i>
+                    <h3 class="text-3xl font-bold my-4 text-black tracking-wider" data-text="contact_email_title">Email</h3>
+                    <p class="text-gray-500 my-4 font-bold">info@tamrini.com</p>
+                    <a href="mailto:info@tamrini.com" aria-label="Read more about Seminole tax hike" target="_blank"
+                        class="text-xl main-color font-semibold duration-300" data-text="contact_email_mess">Send a
+                        email</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ********** End Contact ********** -->
+    <!-- ********** Start Footer ********** -->
+    <div id="footer" class="footer second-bg py-6" dir="ltr">
+        <div class="container px-5 xl:px-28 mx-auto">
+            <!-- Social -->
+            <div class="social my-3 flex justify-center items-center gap-3">
+                <a class="linkedin flex justify-center items-center text-lg h-10 w-10 text-center rounded-xl p-2 bg-[#213e97] text-white hover:bg-white hover:text-black duration-300"
+                    href="https://web.facebook.com/tamrini9" aria-label="Read more about Seminole tax hike" target="_blank">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a class="github flex justify-center items-center text-lg h-10 w-10 text-center rounded-xl p-2 bg-[#c13584] text-white hover:bg-white hover:text-black duration-300"
+                    href="https://www.instagram.com/tamrini9" aria-label="Read more about Seminole tax hike" target="_blank">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a class="facebook flex justify-center items-center text-lg h-10 w-10 text-center rounded-xl p-2 bg-[#000000] text-white hover:bg-white hover:text-black duration-300"
+                    href="https://www.tiktok.com/@tamrini9" aria-label="Read more about Seminole tax hike" target="_blank">
+                    <i class="fab fa-tiktok"></i>
+                </a>
+                <a class="facebook flex justify-center items-center text-lg h-10 w-10 text-center rounded-xl p-2 bg-[#ff0000] text-white hover:bg-white hover:text-black duration-300"
+                    href="https://youtube.com/@tamrini9" aria-label="Read more about Seminole tax hike" target="_blank">
+                    <i class="fab fa-youtube"></i>
+                </a>
+            </div>
+            <div class="row flex gap-2 flex-col sm:flex-row sm:justify-between items-center text-gray-500">
+                <p class="copyright">all rights saved &copy; <span class="main-color px-1">Tamrini</span></p>
+                <p>Designed By <a href="https://khamsat.com/user/mohammed_gomaa22" aria-label="Read more about Seminole tax hike" target="_blank" class="px-1 main-color">Mohammed Gomaa</a></p>
+                <p>Developed By <a href="https://khamsat.com/user/ahmed_a_elngar" aria-label="Read more about Seminole tax hike" target="_blank" class="px-1 main-color">Ahmed AbdElaziz</a></p>
+            </div>
+        </div>
+    </div>
+    <!-- ********** End Footer ********** -->
+
+    <!-- Swiper -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <!-- Main JS File -->
+    <script type="module" src="./js/main.js"></script>
+</body>
+</html>
